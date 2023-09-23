@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700 display=swap');
+
+ html {
+	 font-size: 100%;
+	 font-family: "assistant", serif;
+	 color: #dae9ff;
+}
+ body {
+	 margin: 0;
+	 padding: 0;
+	 width: 100%;
+	 height: auto;
+	 background: #172438;
+	
+}
+
+ 
+
+.hero-container {
+  margin-top: 200px;
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  min-height: 250px;
+  display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 box-sizing: border-box;
+   flex-direction: column;
+   gap: 20px;
+
+  
+}
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.logo{
+  margin: 60px;
+  font-size: 20px;
+  
+}
+
+.logo a{
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.hero-text{
+  font-size: 30px;
+  text-transform: uppercase;
+   background: -webkit-linear-gradient(#01f8c3, #dcdcdc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-shadow:10px 10px 10px #172438;
+}
+
+
+
+.hero-a{
+padding:20px 40px;
+font-family: "assistant", serif;
+font-weight: 900;
+color: #172438;
+font-size: 20px;
+border-radius: 5px;
+border: none;
+background-color: #58ffdb;
+text-decoration: none;
+}
