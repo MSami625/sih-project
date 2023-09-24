@@ -54,6 +54,7 @@
 .hero-text{
   font-size: 30px;
   text-transform: uppercase;
+  padding: 10px;
    background: -webkit-linear-gradient(#01f8c3, #dcdcdc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
