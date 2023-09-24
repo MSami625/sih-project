@@ -61,7 +61,7 @@ function Hero(){
                     <div className="hero-text">
                       <h1>A Story based Quiz</h1>
                     </div>
-                    <Link to="/details"><a className="hero-a">Let's Start</a></Link>
+                    <Link className="hero-a" to="/details">Let's Start</Link>
                   </div>
                   <div className="accordion-title">
                     <h1>FAQ</h1>
