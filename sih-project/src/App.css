@@ -2,17 +2,21 @@
  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700 display=swap');
  @import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,700);
   @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&family=Montserrat&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
 
  
 
  html {
 	 font-size: 100%;
-	 font-family: "quicksand", sans-serif !important;
+	
 	 color: #dae9ff;
 }
  body {
-  font-family: "quicksand", sans-serif !important;
+  font-family: "quicksand", sans-serif ;
 	 margin: 0;
 	 padding: 0;
 	 width: 100%;
@@ -45,6 +49,10 @@
 .logo{
   margin: 60px;
   font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
   
 }
 
@@ -87,6 +95,7 @@ transition: 0.2s ease-out;
 
 
 }
+
 .accordion-title{
   color: #ad5225;
   display: flex;
@@ -96,11 +105,13 @@ transition: 0.2s ease-out;
   font-size: x-large;
   font-family: 'quicksand', sans-serif !important;
 }
+
+
 .accordion {
   -webkit-box-shadow: 0px 13px 23px -13px rgba(0,0,0,0.5);
-  width: 1270px;
+  max-width: 1270px;
   background-color: transparent;
-  margin-left: 80px;
+  margin:auto;
   font-family: 'quicksand', sans-serif !important;
   font-weight: lighter;
   margin-bottom: 50px;
@@ -108,12 +119,12 @@ transition: 0.2s ease-out;
 }
 .title {
   height: 30px;
-  width: 1250px;
+  max-width: 1250px;
   background-color: rgba(0,0,0, .4);
   color: #ad5225;
   letter-spacing: 1px;
   text-align: left;
-  font-family: "Martian Mono", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 2;
   font-weight: 1000;
   position: relative;
@@ -129,19 +140,21 @@ transition: 0.2s ease-out;
 
 .title:hover {
   cursor: pointer;
-  background-color: rgba(0,0,0, .5);
+  background-color: rgba(62, 62, 62, 0.386);
 }
 
 .title:active {
-  background-color: rgba(0, 0, 0, .55);
+  background-color: rgba(60, 60, 60, 0.455);
 }
+
 .content {
   height: 30px;
   width: 1270px;
   background-color: transparent;
   border-radius: 4px;
   color: white;
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: 500;
   text-align: center;
   position: relative;
   z-index: 1000;
