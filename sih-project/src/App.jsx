@@ -4,7 +4,7 @@ import "./App.css";
 
 const colors = ["#000"];
 
-const numBalls = 15;
+const numBalls = 20;
 const balls = [];
 
 for (let i = 0; i < numBalls; i++) {

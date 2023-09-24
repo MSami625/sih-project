@@ -8,10 +8,11 @@
 
  html {
 	 font-size: 100%;
-	 font-family: "quicksand", sans-serif;
+	 font-family: "quicksand", sans-serif !important;
 	 color: #dae9ff;
 }
  body {
+  font-family: "quicksand", sans-serif !important;
 	 margin: 0;
 	 padding: 0;
 	 width: 100%;
@@ -56,6 +57,7 @@
 .hero-text{
   font-size: 30px;
   text-transform: uppercase;
+  font-family: "quicksand", sans-serif;
    background: -webkit-linear-gradient(#01f8c3, #dcdcdc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -65,8 +67,8 @@
 
 
 .hero-a{
+  font-family: "quicksand", sans-serif;
 padding:30px 80px;
-font-family: "assistant", serif;
 font-weight: 900;
 color: #172438;
 font-size: 40px;
