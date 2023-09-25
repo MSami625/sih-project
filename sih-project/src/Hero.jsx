@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 
 //balls animation
+
 const colors = ["#000"];
 
 const numBalls = 20;
