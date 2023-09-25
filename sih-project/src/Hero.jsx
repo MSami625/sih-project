@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const colors = ["#000"];
 
-const numBalls = 5;
+const numBalls = 10;
 const balls = [];
 
 for (let i = 0; i < numBalls; i++) {
@@ -55,7 +55,7 @@ function Hero(){
                   
                   <nav>
                   <div className="logo">
-                    <img src={icon} width={40} /> <a href="/">SIHPREQ</a>
+                    <img src={icon} width={40} /> <a href="/">Wellnesswards</a>
                   </div>
                   <ul>
                   <li><a href="#home">Home</a></li>
@@ -69,7 +69,7 @@ function Hero(){
                     <img src={icon} width={230}/>
                     </div>
                     <div className="hero-text">
-                      <h1>A Story based Quiz</h1>
+                      <h1>Wellnesswards</h1>
                     </div>
                     <Link className="hero-a" to="/details">START</Link>
                   </div>
