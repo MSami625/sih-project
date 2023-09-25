@@ -45,8 +45,13 @@ function Details(){
                     <option value="Hindi">Hindi</option>
                     </select>
                     </div>
+                    <div className="submit">
+                    <a href="/">Submit</a>
+                  </div>
+                    
 
                   </div>
+                  
                   </div>
            </>
     )

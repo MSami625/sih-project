@@ -1,7 +1,7 @@
 html {
     font-size: 100%;
     font-family: "quicksand", sans-serif ;
-    color: #dae9ff;
+    color: #ff5400;
 }
 body {
  font-family: "quicksand", sans-serif ;
@@ -20,17 +20,17 @@ body {
     border-radius: 60px;
     /* margin-left: 400px;
     margin-right: 400px; */
-    margin-top: 20px;
-    padding: 80px;
+    margin-top: 10px;
+    padding: 100px;
     box-shadow: 1px 1px 10px #000000; 
     backdrop-filter: blur(10px);
-    height: 115vh;
+    height: 130vh;
     margin-bottom: 150px;
 
 }
 .groupicon{
-    background-color: #d3d5d7;
-    box-shadow: 5px 5px 10px #000000;
+    background: #172438;
+    box-shadow: 3px 3px 7px #000000;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -41,6 +41,9 @@ body {
     flex-direction: column;
     margin-bottom: 10px;
     padding: 40px;
+}
+h1{
+    font-weight: 100;
 }
 .main-container{
     display: flex;
@@ -53,11 +56,12 @@ body {
     font-family: "quicksand", sans-serif ;
     color: white;
     font-size: 2rem;
+
     background-color: transparent;
     backdrop-filter: blur(50px);
     width: 65vh;
     height: 8vh;
-    border: 2px solid white;
+    border: 2px solid #58ffdb;
     border-radius: 10px;
 }
 .inputs select{
@@ -89,4 +93,30 @@ body {
     box-shadow: 5px 5px 100px #000000;
     border-radius: 50%;
     
+  }
+  .submit{
+    font-family: "quicksand", sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    border: 3.5px solid black;
+
+    box-shadow: 0.5px 0.5px 10px #ff5400;
+
+    color: #172438;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    background-color: #58ffdb;
+    padding:20px 70px;
+    border-radius: 100px;
+  }
+  .submit:hover{
+    transform: scale(1.1);
+}
+
+  .submit a{
+    
+    color: #172438;
+    text-decoration: none;
   }
