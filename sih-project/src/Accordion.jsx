@@ -100,17 +100,7 @@ class Accordion extends Component {
           title: "Eight",
           content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nisi delectus ea repellat consequatur tempora, sunt laudantium aspernatur fugiat sed quo, molestias ipsa quisquam corrupti possimus vitae harum architecto totam?
           `, // Add your content here
-        },
-        {
-          title: "Nine",
-          content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nisi delectus ea repellat consequatur tempora, sunt laudantium aspernatur fugiat sed quo, molestias ipsa quisquam corrupti possimus vitae harum architecto totam?
-          `, // Add your content here
-        },
-        {
-          title: "Ten",
-          content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nisi delectus ea repellat consequatur tempora, sunt laudantium aspernatur fugiat sed quo, molestias ipsa quisquam corrupti possimus vitae harum architecto totam?
-          `, // Add your content here
-        },
+        }
       ];
 
 
