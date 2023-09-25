@@ -21,7 +21,7 @@
 	 width: 100%;
 	 height: auto;
 	 background: #172438;
-	
+	scroll-behavior: smooth;
 }
 .hero-container {
   margin-top: 50px;

@@ -64,7 +64,7 @@ function Hero(){
                   <li><a href="#about">About</a></li>
                   </ul>
                   </nav>
-                  <div className="hero-container">
+                  <div id="home" className="hero-container">
                   <div className="main-logo">
                     <img src={icon} width={230}/>
                     </div>
@@ -73,14 +73,14 @@ function Hero(){
                     </div>
                     <Link className="hero-a" to="/details">START</Link>
                   </div>
-                  <div className="accordion-title">
+                  <div id="faqs" className="accordion-title">
                     <h1>FAQs</h1>
                   </div>
                   <div id="accordion">
                     <Accordion  />
                   </div>
 
-                  <footer className="footer">
+                  <footer id="about" className="footer">
                     <div className="container">
                       <div className="row">
                         <div className="footer-col">
