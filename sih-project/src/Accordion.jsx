@@ -61,44 +61,45 @@ class Accordion extends Component {
 
       const data = [
         {
-          title: "Can a child’s temperament affect one’s behaviour? ",
+          title: "How is Heamen beneficial for children?",
+          content: `The Heamen is beneficial for children in various ways. As it helps allows them a free space to be themselves and let their intrusive and creative thoughts out. It tracks the behaviour of your child and further evaluates how in sync that behaviour is with the societal norms. It also Analysis the emotional intelligence, prosocial level, behavioural characteristic, and more of such traits of your child. 
+          `, // Add your content here
+        },
+        {
+          title: "Can a child’s temperament affect one’s adult behaviour? ",
           content: `Yes, a child’s temperament, like being easygoing or spirited, plays a significant role in their behavior. Easy-going children may adapt well, while spirited ones may display more intense reactions.
           `, // Add your content here
         },
         {
           title:
-            "Is the (name) designed only for children or can it be played by adults as well?",
+            "Is Heamen designed only for children or can it be played by adults as well?",
           content: `Yes, this game can be played by young adults as well. Though in that case, we cannot be sure about the reliability of the analysis report, as adults are seen to be more smart and thoughtful with their answers. While children are observed to be immersed in the game and let their subconscious behavioural pattern select the answers for them.
           `, // Add your content here
         },
+        
         {
-          title: "Three",
-          content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nisi delectus ea repellat consequatur tempora, sunt laudantium aspernatur fugiat sed quo, molestias ipsa quisquam corrupti possimus vitae harum architecto totam?
+          title: "How do parents and caregivers recognize their child’s personality traits?",
+          content: `Observing how a child reacts to various situations, their preferences, and their social interactions can help parents identify their child’s personality traits.
           `, // Add your content here
         },
         {
-          title: "Four",
-          content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nisi delectus ea repellat consequatur tempora, sunt laudantium aspernatur fugiat sed quo, molestias ipsa quisquam corrupti possimus vitae harum architecto totam?
+          title: "Can a child’s behavior change over time as their personality develops?",
+          content: `Yes, a child’s behavior can evolve as they grow and develop. New experiences and influences can modify their behavioral choices.
           `, // Add your content here
         },
         {
-          title: "Five",
-          content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nisi delectus ea repellat consequatur tempora, sunt laudantium aspernatur fugiat sed quo, molestias ipsa quisquam corrupti possimus vitae harum architecto totam?
+          title: "What role does environment play in a child’s behavior?",
+          content: `The child’s environment, including family, school, and peers, can influence their behavior. It can either support or challenge their natural personality traits.
           `, // Add your content here
         },
         {
-          title: "Six",
-          content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nisi delectus ea repellat consequatur tempora, sunt laudantium aspernatur fugiat sed quo, molestias ipsa quisquam corrupti possimus vitae harum architecto totam?
+          title: "How can parents nurture positive behaviors in their child based on their personality?",
+          content: `By understanding their child’s personality, parents can tailor their guidance and support to encourage positive behaviors that align with their traits.
           `, // Add your content here
         },
         {
-          title: "Seven",
-          content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nisi delectus ea repellat consequatur tempora, sunt laudantium aspernatur fugiat sed quo, molestias ipsa quisquam corrupti possimus vitae harum architecto totam?
-          `, // Add your content here
-        },
-        {
-          title: "Eight",
-          content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nisi delectus ea repellat consequatur tempora, sunt laudantium aspernatur fugiat sed quo, molestias ipsa quisquam corrupti possimus vitae harum architecto totam?
+          title: "Can awareness of a child’s personality traits help prevent behavioral issues?",
+          content: `Yes, understanding a child’s personality can help parents address potential behavioral challenges early and provide appropriate guidance.
           `, // Add your content here
         }
       ];
