@@ -29,7 +29,7 @@ function Details() {
     localStorage.setItem("user", JSON.stringify(user));
 
     // Redirect to the story page using navigate
-    navigate("/story");
+      navigate("/story");
   };
 
   return (
