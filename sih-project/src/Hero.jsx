@@ -155,7 +155,7 @@ function Hero(){
                           <h4>follow us</h4>
                           <div className="social-links">
                             <a href="#">
-                              <i className="fab fa-facebook-f" />
+                              <i className="fab fa-instagram" />
                             </a>
                             <a href="#">
                               <i className="fab fa-linkedin-in" />
