@@ -4,11 +4,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
 
 html {
   font-size: 100%;
   color: #dae9ff;scroll-behavior: smooth;
+  font-family: "quicksand", sans-serif !important;
 }
 body {
   font-family: "quicksand", sans-serif;
@@ -35,13 +39,23 @@ body {
   border: 5px solid rgb(0, 0, 0);
   border-radius: 50%;
   box-shadow: 1px 1px 10px #000000;
-  transition: 0.2s ease-out;
+  transition: 0.2s ease-out ;
   position: relative;
   top: 55px;
+  animation: bounce 2s infinite;
 }
-.main-logo:hover {
-  transform: scale(1.02);
+
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0); /* Start and end position (no vertical movement) */
+  }
+  50% {
+    transform: translateY(-20px); /* Middle position, move the element up */
+  }
 }
+
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -64,7 +78,7 @@ nav ul {
 
 nav ul a {
   text-decoration: none;
-  color: #ff5400 !important;
+  color: #eed113 !important;
   font-weight: 500;
   transition: 0.2s ease-out;
 }
@@ -92,7 +106,7 @@ nav ul a:hover {
 }
 
 .logo {
-  margin: 60px;
+  margin: 40px;
   font-size: 25px;
   margin-top: 35px;
   display: flex;
@@ -101,6 +115,7 @@ nav ul a:hover {
   justify-content: center !important;
   gap: 10px;
 }
+
 .logo img {
   border: 1px solid black;
   box-shadow: 5px 5px 100px #000000;
@@ -109,14 +124,16 @@ nav ul a:hover {
 
 .logo a {
   font-weight: 500;
-  color: #ff5400;
+  color: #eed113;
   text-decoration: none;
+  letter-spacing: 5px;
 }
 
 .hero-text {
   font-size: 35px;
   text-transform: uppercase;
   padding: 10px;
+  letter-spacing: 15px;
   font-family: "quicksand", sans-serif;
   background: -webkit-linear-gradient(#01f8c3, #dcdcdc);
   -webkit-background-clip: text;
@@ -126,15 +143,16 @@ nav ul a:hover {
 
 .hero-a {
   font-family: "quicksand", sans-serif;
-  padding: 30px 80px;
+  padding: 20px 80px;
   font-weight: 500;
   color: #172438;
   font-size: 40px;
   border-radius: 100px;
   border: 3.5px solid black;
-  box-shadow: 0.5px 0.5px 10px #ff5400;
+  box-shadow: 0.5px 0.5px 10px #eed113;
   position: relative;
   bottom: 30px;
+  letter-spacing: 5px;
   background-color: #58ffdb;
   text-decoration: none;
   margin-bottom: 50px;
@@ -148,7 +166,7 @@ nav ul a:hover {
   border: 1px solid black;
   background-color: rgba(0, 0, 0, 0.4);
   height: 100px;
-  color: #ff5400;
+  color: #eed113;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -271,7 +289,7 @@ ul {
 }
 .footer-col h4 {
   font-size: 18px;
-  color: #ff5400;
+  color: #eed113;
   text-transform: capitalize;
   margin-bottom: 35px;
   font-weight: 500;
@@ -345,6 +363,7 @@ ul {
   flex-direction: row;
 
 }
+
 .image-1{
   margin-left: 50px;
 
@@ -356,12 +375,14 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #eed113;
   border: 1px solid black;
   background-color: rgba(0,0,0, .4);
   font-weight: 100;
   font-size: 60px;
 }
-p{
-  margin-left: 100px;
+.about-container p{
+  margin:20px  50px;
   color: #58ffdb;
+  font-size: 22px;
 }

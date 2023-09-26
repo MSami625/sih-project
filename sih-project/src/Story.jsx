@@ -230,13 +230,20 @@ useEffect(() => {
       <div id="scroll"></div>
 
 
-     {showResults  &&  <div className="final-results">
-        <h1>Wohoo <span>{name.name}</span> ! You Completed the Story😘</h1>
-        <h3>For Gaurdian/Parent:</h3>
-        <p>
-         {text}
-        </p>
-      </div>}
+      {showResults && (
+      <div className="overlay"> {/* Apply the overlay class */}
+        <div className="final-results">
+          {/* Your modal content */}
+          <h1>Wohoo {name.name}! You Completed the Story😘</h1>
+          <h3>For Guardian/Parent:</h3>
+          <p>{text}</p>
+         
+          <a href="/">Back to Home</a>
+      
+        </div>
+        
+      </div>
+    )}
      
     </>
   );
