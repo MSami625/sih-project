@@ -87,17 +87,7 @@ nav ul a:hover {
   transform: scale(1.5);
 }
 
-/* nav a{
-  
-  text-decoration: none;
-  color: #ad5225 !important;
-  flex-direction: row ;
-  font-weight: 700;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-} */
+
 .ball {
   position: absolute;
   border-radius: 100%;
@@ -221,7 +211,7 @@ nav ul a:hover {
   width: 1270px;
   background-color: transparent;
   border-radius: 4px;
-  color: #ffffff;
+  color: #eed113;
   font-size: 20px;
   font-weight: 500;
   text-align: center;
@@ -384,5 +374,7 @@ ul {
 .about-container p{
   margin:20px  50px;
   color: #58ffdb;
-  font-size: 22px;
+  font-size: 25.5px;
+  text-align: left;
+  margin-right: 30px;
 }

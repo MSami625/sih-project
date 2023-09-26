@@ -95,19 +95,19 @@ function Hero(){
                     <div className="container">
                       <div className="row">
                         <div className="footer-col">
-                          <h4>SIHPREQ</h4>
+                          <h4>Heamen</h4>
                           <ul>
                             <li>
-                              <a href="#">Some</a>
+                              <a href="#home">Home</a>
                             </li>
                             <li>
-                              <a href="#">thing</a>
+                              <a href="#faqs">FAQs</a>
                             </li>
                             <li>
-                              <a href="#">cool</a>
+                              <a href="#Journal">Journal</a>
                             </li>
                             <li>
-                              <a href="#">stuff</a>
+                              <a href="#About">About</a>
                             </li>
                           </ul>
                         </div>
@@ -115,19 +115,7 @@ function Hero(){
                           <h4>get help</h4>
                           <ul>
                             <li>
-                              <a href="#">Never</a>
-                            </li>
-                            <li>
-                              <a href="#">Gonna</a>
-                            </li>
-                            <li>
-                              <a href="#">Give</a>
-                            </li>
-                            <li>
-                              <a href="#">You</a>
-                            </li>
-                            <li>
-                              <a href="#">Up</a>
+                              <a href="#">+919834975937</a>
                             </li>
                           </ul>
                         </div>
@@ -135,27 +123,15 @@ function Hero(){
                           <h4>Contact Us</h4>
                           <ul>
                             <li>
-                              <a href="#">Never</a>
-                            </li>
-                            <li>
-                              <a href="#">Gonna</a>
-                            </li>
-                            <li>
-                              <a href="#">Give</a>
-                            </li>
-                            <li>
-                              <a href="#">You</a>
-                            </li>
-                            <li>
-                              <a href="#">Up</a>
+                             <a href="mailto:heamen2609@gmail.com"> Send Email </a>
                             </li>
                           </ul>
                         </div>
                         <div className="footer-col">
-                          <h4>follow us</h4>
+                          <h4>follow </h4>
                           <div className="social-links">
                             <a href="#">
-                              <i className="fab fa-facebook-f" />
+                              <i className="fab fa-instagram" />
                             </a>
                             <a href="#">
                               <i className="fab fa-linkedin-in" />
