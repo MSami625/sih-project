@@ -13,16 +13,15 @@ body {
     justify-self: center;
     background: transparent;
     border: 4px solid rgb(0, 0, 0);
-    border-radius: 60px;
+    border-radius: 15px;
     /* margin-left: 400px;
     margin-right: 400px; */
     margin-top: 10px;
     padding: 20px;
     box-shadow: 1px 1px 10px #000000; 
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px);
     height: 100vh;
     margin-bottom: 150px;
-
 }
 .groupicon{
     background: #172438;
@@ -52,13 +51,13 @@ h1{
     font-family: "quicksand", sans-serif ;
     color: white;
     font-size: 1.5rem;
-
     background-color: transparent;
     backdrop-filter: blur(50px);
     width: 65vh;
     height: 5vh;
-    border: 2px solid #58ffdb;
+    border: 2px solid #eed113;
     border-radius: 10px;
+
 }
 .inputs select{
     font-family: "quicksand", sans-serif ;
@@ -71,8 +70,6 @@ h1{
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     text-align: center;
-    
-
 }
 .logo{
     margin: 60px;
@@ -93,30 +90,32 @@ h1{
   .submit{
     font-family: "quicksand", sans-serif;
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
     border: 3.5px solid black;
-    box-shadow: 0.5px 0.5px 10px #eed113;
+    /* box-shadow: 0.5px 0.5px 10px #58ffdb; */
     color: #172438;
     font-weight: 800;
     letter-spacing: 1.5px;
     cursor: pointer;
     transition: 0.2s ease-out;
-    background-color: #58ffdb;
+    background-color: #eed113;
     padding:10px 40px;
+    width: 200px;
     border-radius: 100px;
     text-align: center;
+    margin-left: 100px;
   }
   .submit:hover{
     transform: scale(1.1);
 }
 
 .questions{
-  font-size: 10px;
+  font-size: 11px;
 }
 
   .submit button{
     padding: 10px;
-    background-color: #58ffdb;
+    background-color: #eed113;
     font-size: 30px;
     font-family: "quicksand", sans-serif;
     font-weight: 600;
@@ -124,5 +123,34 @@ h1{
     text-decoration: none;
     border: none;
     cursor: pointer;
-    
   }
+  @media (max-width: 480px) {
+    .main-container{
+      width: 400px;
+      margin-left: 20px;
+    }
+    .detail-container{
+      width: 300px;
+    }
+  }
+  .inputs input{
+    width: 300px;
+    margin-left: 40px;
+
+  }
+  .inputs select{
+    position: relative;
+    left: 40px;
+    padding: none;
+    height: 60px;
+    width: 310px;
+  }
+  .submit{
+    position: relative;
+    right: 50px;
+
+  }
+  .questions{
+    margin-left: 40px;
+  }
+  
