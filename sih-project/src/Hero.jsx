@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const colors = ["#000"];
 
-const numBalls = 10;
+const numBalls = 5;
 const balls = [];
 
 for (let i = 0; i < numBalls; i++) {
@@ -73,6 +73,24 @@ function Hero(){
                     </div>
                     <Link className="hero-a" to="/details">START</Link>
                   </div>
+                  <div className="about">
+                    <h1> About Us</h1>
+                  </div>
+                  <div className="about-container">
+                  <div className="image-1">
+                     <img src="src/assets/online-community.png"/>
+                     </div>
+                     <div>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae hic, reprehenderit quis laboriosam maiores aliquam alias repellendus dolor illum, impedit cum necessitatibus nostrum earum non dolores itaque voluptatum. Eius, impedit!
+                      Numquam eligendi eos expedita dolorem hic harum tempore ad cum nostrum necessitatibus aliquid dolores odit aspernatur consequuntur est perferendis nam voluptatem minima, quasi ex perspiciatis doloribus eum? Eaque, corrupti quam.
+                      Architecto at eveniet ut eligendi suscipit iure temporibus, aliquid veniam veritatis hic blanditiis, rem corrupti sapiente eaque fugiat? Quisquam eius placeat error esse delectus exercitationem animi natus accusantium aliquam sint.
+                      Maxime sapiente veritatis minus dolorem nostrum accusamus commodi iure? Deleniti sint ratione similique rerum molestiae vitae id aliquid in quas. Dolorem temporibus optio reprehenderit laborum earum nisi, delectus sunt. Neque?
+                      Sit minima error ad quo? Earum dolor minus, corporis eligendi fugit architecto incidunt in odit autem nulla, beatae optio veritatis consequuntur ea praesentium? Doloremque quam ea nulla non? Quae, iste.
+                      Quibusdam nihil laboriosam consequatur, expedita earum explicabo sequi consectetur ipsa dolore eum voluptatibus dolores vel nemo iste atque nam deserunt optio. Cupiditate illum sapiente assumenda dicta sit unde, repudiandae doloremque!
+                      Recusandae, id velit enim ex tempore hic repellat modi quas consequatur adipisci perspiciatis distinctio quo nobis possimus culpa corporis impedit commodi earum vel assumenda minima. Quia molestias expedita minima vitae?
+                      Repudiandae enim dolore hic sit quidem consequuntur cumque tenetur aspernatur molestiae nisi, reprehenderit quibusdam ipsum non. Quo alias quae voluptates optio amet corrupti, possimus libero tenetur nisi id voluptate</p>
+                     </div>
+                     </div>
                   <div id="faqs" className="accordion-title">
                     <h1>FAQs</h1>
                   </div>
