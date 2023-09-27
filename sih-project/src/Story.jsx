@@ -1,4 +1,5 @@
 import "./story.css";
+import icon from "./assets/open-mind.png";
 
 import React, { useState, useEffect,useRef } from "react";
 
@@ -42,7 +43,7 @@ function Story() {
   const questions = [
     {
       src: "https://ik.imagekit.io/wellnesswards/scene1.mp4?updatedAt=1695668108651",
-      text: "What will Shreya do?",
+      text: "Q. What will Shreya do?",
       options: [
         {
           id: 0,
@@ -194,6 +195,10 @@ useEffect(() => {
 
   return (
     <>
+      <div className="logo">
+        <img src={icon} width={40} alt="Heamen Logo" /> <a href="/">Heamen</a>
+      </div>
+      
       <div className="question-card">
         {/* Current Question  */}
 
@@ -234,11 +239,11 @@ useEffect(() => {
       <div className="overlay"> {/* Apply the overlay class */}
         <div className="final-results">
           {/* Your modal content */}
-          <h1>Wohoo {name.name}! You Completed the Story😘</h1>
-          <h3>For Guardian/Parent:</h3>
+          {/* <h1>YAY, {name.name}! You Did It</h1> */}
+          <h3>Guidelines For Guardians:</h3>
           <p>{text}</p>
          
-          <a href="/">Back to Home</a>
+          <a href="#">Back to Home</a>
       
         </div>
         
