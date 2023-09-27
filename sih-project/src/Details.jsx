@@ -35,7 +35,7 @@ function Details() {
   return (
     <>
       <div className="logo">
-        <img src={icon} width={40} /> <a href="/">SIHPREQ</a>
+        <img src={icon} width={40} /> <a href="/">Heamen</a>
       </div>
       <div className="main-container">
         <div className="detail-container">

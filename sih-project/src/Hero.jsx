@@ -1,4 +1,4 @@
-
+import React, { useState } from "react";
 import Accordion from "./Accordion";
 import icon from "./assets/open-mind.png";
 import { Link } from "react-router-dom";
@@ -50,7 +50,12 @@ balls.forEach((el, i, ra) => {
 
 
 
-function Hero(){
+function Hero() {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
     return (
         <>
                   
@@ -58,10 +63,16 @@ function Hero(){
                   <div className="logo">
                     <img src={icon} width={40} /> <a href="/">Heamen</a>
                   </div>
-                  <ul>
+                  <div className={`menu-toggle ${showMenu ? "active" : ""}`} onClick={toggleMenu}>
+                  <div className="bar"></div>
+                  <div className="bar"></div>
+                  <div className="bar"></div>
+                  </div>
+                  <ul className={`menu ${showMenu ? "active" : ""}`}>
                   <li><a href="#home">Home</a></li>
                   <li><a href="#faqs">FAQs</a></li>
                   <li><a href="#journal">Journal</a></li>
+                  <li><a href="#parentalaccess">Parental Access</a></li>
                   <li><a href="#about">About</a></li>
                   </ul>
                   </nav>
@@ -82,7 +93,7 @@ function Hero(){
                      <img src={icono}/>
                      </div>
                      <div>
-                      <p>It appears that you are poised to embark upon a captivating journey within an immersive simulation game, where the decisions you make shall wield profound influence upon the intricate tapestry of your character's ultimate fate. This concept is nothing short of extraordinary, and I stand at your disposal, prepared to provide guidance and address any inquiries you may possess as you commence upon this remarkable odyssey. Pray, do unveil the initial scenario or inquiry you wish to proffer to our esteemed players. Let us commence this adventure forthwith! Here at Heamen, we stand prepared to accompany you on an enlightening voyage into the inner sanctums of your consciousness, akin to a celestial sojourn through the boundless expanses of the mind's ethereal heavens..</p>
+                      <p>It appears that you are poised to embark upon a captivating journey within an immersive simulation game, where the decisions you make shall wield profound influence upon the intricate tapestry of your character's ultimate fate. This concept is nothing short of extraordinary, and I stand at your disposal, prepared to provide guidance and address any inquiries you may possess as you commence upon this remarkable odyssey. Pray, do unveil the initial scenario or inquiry you wish to proffer to our esteemed players. Let us commence this adventure forthwith! Here at Heamen, we stand prepared to accompany you on an enlightening voyage into the inner sanctums of your consciousness, akin to a celestial sojourn through the boundless expanses of the mind's ethereal heavens.</p>
                      </div>
                      </div>
                   <div id="faqs" className="accordion-title">
