@@ -29,7 +29,12 @@ function Details() {
     localStorage.setItem("user", JSON.stringify(user));
 
     // Redirect to the story page using navigate
+    if (language === "English") {
       navigate("/story");
+    } else if (language === "Hindi") {
+      navigate("/story-hindi");
+    }
+
   };
 
   return (

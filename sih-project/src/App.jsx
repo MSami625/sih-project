@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Story from "./Story";
 import Hero from "./Hero"
+import StoryHindi from "./StoryHindi"
 import Details from "./Details"
 
 
@@ -24,6 +25,7 @@ function App(){
           <Routes>
             <Route exact path="/" Component={Hero}/>
              <Route path="/story" Component={Story} />
+             <Route path="/story-hindi" Component={StoryHindi} />
              <Route path="/details" Component={Details} />
           </Routes>
         </Router>
