@@ -29,12 +29,19 @@ function Details() {
     localStorage.setItem("user", JSON.stringify(user));
 
     // Redirect to the story page using navigate
-    if (language === "English") {
-      navigate("/story");
-    } else if (language === "Hindi") {
-      navigate("/story-hindi");
+    if (parseInt(age, 10) < 13) {
+      if (language === "English") {
+        navigate("/story-children");
+      } else if (language === "Hindi") {
+        navigate("/story-children-hindi");
+      }
+    } else {
+      if (language === "English") {
+        navigate("/story-adults");
+      } else if (language === "Hindi") {
+        navigate("/story-adults-hindi");
+      }
     }
-
   };
 
   return (

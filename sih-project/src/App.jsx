@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Story from "./Story";
+import Story from "./StoryChildren";
 import Hero from "./Hero"
-import StoryHindi from "./StoryHindi"
+import StoryChildrenHindi from "./StoryChildrenHindi"
 import Details from "./Details"
 
 
@@ -24,8 +24,8 @@ function App(){
         <Router>
           <Routes>
             <Route exact path="/" Component={Hero}/>
-             <Route path="/story" Component={Story} />
-             <Route path="/story-hindi" Component={StoryHindi} />
+             <Route path="/story-children" Component={Story} />
+             <Route path="/story-children-hindi" Component={StoryChildrenHindi} />
              <Route path="/details" Component={Details} />
           </Routes>
         </Router>
