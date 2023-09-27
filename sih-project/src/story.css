@@ -47,7 +47,8 @@
     height: 70px;
     border: 100px;
     width: 850px;
-    margin-left: 300px;
+    margin: auto;
+   
     display: flex;
     align-items: center;
     justify-content: center;
