@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import icon from "./assets/open-mind.png";
 import groupicon from "./assets/group.png";
-import "./Details.css";
+import "./SignUP.css";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 function Details() {
